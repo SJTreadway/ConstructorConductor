@@ -4,8 +4,5 @@
   
   //code here
   String.prototype.reverse = function(){
-  	var arr = this.split('');
-  	var rev = arr.reverse();
-  	var join = rev.join('');
-  	return join;
+  	return this.split('').reverse().join('');
   };
